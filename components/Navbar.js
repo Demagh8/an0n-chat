@@ -35,15 +35,6 @@ const Navbar = () => (
                         Github
                     </a>
                 </li>
-                <li className="nav-item">
-                    <a
-                        className="nav-link"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        href={SOCAIL_LINKS.linkedin}>
-                        Linkedin
-                    </a>
-                </li>
             </div>
         </div>
     </nav>

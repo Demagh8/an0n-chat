@@ -3,7 +3,7 @@ module.exports = {
     DESCRIPTION: "Now chat anonymously and securely",
 
     SOCAIL_LINKS: {
-        github: "https://github.com/",
+        github: "https://github.com/Demagh8/an0n-chat",
         linkedin: "https://www.linkedin.com/",
     },
 
