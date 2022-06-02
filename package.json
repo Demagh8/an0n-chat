@@ -2,7 +2,7 @@
     "name": "chat-app",
     "version": "1.0.0",
     "private": true,
-    "repository": "git@github.com:msk4862/Anomly.git",
+    "repository": "git@github.com:Demagh8/An0n-chat.git",
     "author": "Shoaib Asgar <msk4862@gmail.com>",
     "license": "MIT",
     "scripts": {
@@ -15,7 +15,9 @@
     },
     "dependencies": {
         "@zeit/next-sass": "^1.0.1",
+        "aws-cli": "0.0.2",
         "aws-sdk": "^2.817.0",
+        "aws-serverless-express": "^3.4.0",
         "dayjs": "^1.9.7",
         "express": "^4.17.1",
         "next": "9.4.4",
@@ -37,7 +39,8 @@
         "jest": "^26.2.2",
         "nodemon": "^2.0.4",
         "prettier": "^2.0.5",
-        "pretty-quick": "^2.0.1"
+        "pretty-quick": "^2.0.1",
+        "serverless": "^3.18.2"
     },
     "husky": {
         "hooks": {

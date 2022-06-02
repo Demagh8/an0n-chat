@@ -118,3 +118,5 @@ nextApp.prepare().then(() => {
         });
     });
 });
+
+module.exports = app;

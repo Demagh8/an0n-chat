@@ -39,7 +39,7 @@ class MyDocument extends Document {
                 <script
                     src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.2/rollups/aes.js"
                     integrity="sha256-/H4YS+7aYb9kJ5OKhFYPUjSJdrtV6AeyJOtTkw6X72o="
-                    crossOrigin="anonymous"></script>
+                    crossorigin="anonymous"></script>
             </Html>
         );
     }
