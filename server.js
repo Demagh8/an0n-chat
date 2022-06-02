@@ -37,12 +37,8 @@ nextApp.prepare().then(() => {
 
     // Run when client connnects
     io.on("connect", (socket) => {
-        const {
-            CHAT_MESSAGE,
-            JOIN_ROOM,
-            ROOM_USERS,
-            DISCONNECT,
-        } = SOCKET_EVENTS;
+        const { CHAT_MESSAGE, JOIN_ROOM, ROOM_USERS, DISCONNECT } =
+            SOCKET_EVENTS;
 
         // joining room
         socket.on(JOIN_ROOM, ({ username, room }) => {
@@ -56,10 +52,9 @@ nextApp.prepare().then(() => {
                 CHAT_MESSAGE,
                 new TextMessage(
                     "CHAT_BOT",
-                    `Welcome to Anomly ${username}!`,
+                    `Welcome to An0n Chat, ${username}!`,
                     Message.BOT
                 )
-                // formatMessage(CHAT_BOT, `Welcome to Anomly ${username}!`)
             );
 
             // Broasdcast to all user except client when a user is joined

@@ -1,0 +1,6 @@
+{
+	"rooms": {
+		"space_x": "AES_KEY",
+		"myRoom": "AES_KEY"
+	}
+}
