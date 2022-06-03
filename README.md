@@ -1,7 +1,7 @@
 # An0n-chat
 
 <div align="center">
-    <h1><img src="https://github.com/msk4862/Anomly/blob/master/public/images/chat-logo1.png" width="400"></h1>
+    <h1><img src="https://github.com/demagh8/an0n-chat/blob/master/public/images/chat-logo1.png" width="400"></h1>
     <p>
          <b>An0n is a chat app where one can chat anonymously and securely</b>
     </p>
