@@ -1,9 +1,9 @@
-# Anomly ![Visitors Count](https://visitor-badge.laobi.icu/badge?page_id=msk4862.Anomly)
+# An0n-chat
 
 <div align="center">
     <h1><img src="https://github.com/msk4862/Anomly/blob/master/public/images/chat-logo1.png" width="400"></h1>
     <p>
-         <b>Anomly is a chat app where one can chat anonymously and can create unlimited chat rooms</b>
+         <b>An0n is a chat app where one can chat anonymously and securely</b>
     </p>
       <img src="https://api.travis-ci.org/msk4862/Anomly.svg?branch=master&status=passed" width="100">
       <img src="https://img.shields.io/github/license/msk4862/Anomly?style=flat-square" width="92">
@@ -15,6 +15,7 @@
 
 ### Tools
 
+-   [CryptoJS](https://code.google.com/archive/p/crypto-js/) - For messages encryption.
 -   [NextJs](https://nextjs.org/) - React based framework for server side rendering.
 -   [Socket.IO](https://socket.io/) - Framework for real-time bidirectional event-based communication.
 -   [React Testing Library](https://github.com/testing-library/react-testing-library) - Testing library for React.
